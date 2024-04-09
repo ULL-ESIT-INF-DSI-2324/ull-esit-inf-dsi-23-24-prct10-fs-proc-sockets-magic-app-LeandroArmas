@@ -1,1 +1,27 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/7bX30zK4)
+# Práctica 10
+
+<p align="center">
+  <a href="https://github.com/LeandroArmas/p10_LeandroArmas_PE101/actions/workflows/node.js.yml">
+    <img alt="Tests badge" src="https://github.com/LeandroArmas/p10_LeandroArmas_PE101/actions/workflows/node.js.yml/badge.svg?branch=main">
+  </a>
+  <a href="https://github.com/LeandroArmas/p10_LeandroArmas_PE101/actions/workflows/coveralls.yml">
+    <img alt="Coveralls badge" src="https://github.com/LeandroArmas/p10_LeandroArmas_PE101/actions/workflows/coveralls.yml/badge.svg?branch=main">
+  </a>
+  <a href="https://sonarcloud.io/summary/new_code?id=LeandroArmas_p10_LeandroArmas_PE101">
+    <img alt="Sonar badge" src="https://sonarcloud.io/api/project_badges/measure?project=LeandroArmas_p10_LeandroArmas_PE101&metric=alert_status">
+  </a>
+</p>
+
+
+
+## Índice
+
+## Introducción
+
+## Estructura
+
+## Desarrollo
+
+## Modificación
+
+## Conclusiones
