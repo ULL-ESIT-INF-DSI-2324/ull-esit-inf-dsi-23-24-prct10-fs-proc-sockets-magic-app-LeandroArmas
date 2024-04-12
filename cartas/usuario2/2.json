@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "nombre": "Arcangel",
+  "costeMana": 1,
+  "color": "Multicolor",
+  "tipo": "Tierra",
+  "rareza": "Comun",
+  "textoReglas": "La maravilla",
+  "valorMercado": 5
+}

@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "nombre": "Anuel",
+  "costeMana": 27,
+  "color": "Rojo",
+  "tipo": "Tierra",
+  "rareza": "Mitica",
+  "textoReglas": "Real Hasta la Muerte",
+  "valorMercado": 1000000
+}
