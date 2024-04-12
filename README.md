@@ -679,6 +679,11 @@ Se ha enfatizado la importancia del desarrollo defensivo y el manejo adecuado de
 
 En resumen, esta práctica ha sido una oportunidad valiosa para aplicar y reforzar los conocimientos adquiridos en el desarrollo de aplicaciones web con Node.js y TypeScript, así como para adquirir nuevas habilidades en el manejo de comunicaciones entre procesos y el desarrollo defensivo de software. Estos aprendizajes serán de gran utilidad en futuros proyectos y en el desarrollo de aplicaciones más complejas en el futuro.
 
+# Inconvenientes
+
+Como inconvenientes he encontrado que no se completa correctamente el análisis del cubimiento del código de sonarcloud debido a que no hay tests para cubrir todo el código y hay algunas líneas que parecen estar duplicadas. 
+Tras intentar hacer tests para cubrir más código no he podido cubrir más allá del 65.3% y las lineas que detecta duplicadas realmente no son líneas duplicadas, son líneas necesarias para el funcionamiento del código. 
+
 ## Referencias
 
 - [Documentación de events](https://nodejs.org/docs/latest/api/events.html)
