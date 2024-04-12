@@ -3,9 +3,8 @@ import 'mocha';
 import { expect } from 'chai';
 import { Carta, Color, Tipo, Rareza, ImprimirConColor } from '../src/carta.js';
 import { ColeccionCartas } from '../src/coleccion.js';
+import { EventEmitter } from 'events';
 import { EventEmitterSocket } from '../src/servidor.js';
-import net from 'net';
-
 
 describe ('Carta tests', () => {
   it ('crear carta', () => {
@@ -196,12 +195,3 @@ describe ('Colección test', () => {
     });
   });
 });
-
-describe ('Servidor test', () => {
-  it('servidor', () => {
-    const server = net.createServer((connection) => {
-      const serverSocket = new EventEmitterSocket(connection);
-    });
-  });
-});
-
