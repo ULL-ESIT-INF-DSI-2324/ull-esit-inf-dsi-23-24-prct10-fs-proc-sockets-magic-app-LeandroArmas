@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import 'mocha';
 import { expect } from 'chai';
-import { Carta, Color, Tipo, Rareza } from '../src/carta.js';
+import { Carta, Color, Tipo, Rareza, ImprimirConColor } from '../src/carta.js';
 import { ColeccionCartas } from '../src/coleccion.js';
 
 describe ('Carta tests', () => {
@@ -103,6 +103,20 @@ describe ('Carta tests', () => {
     expect(carta.textoReglas).to.equal('Texto de reglas para el planeswalker aliado');
     expect(carta.valorMercado).to.equal(50);
     expect(carta.marcasLealtad).to.equal(5);
+  });
+
+  it('imprimir con color', () => {
+    const carta = `{
+      "id": 2,
+      "nombre": "Arcangel",
+      "costeMana": 1,
+      "color": "Multicolor",
+      "tipo": "Tierra",
+      "rareza": "Comun",
+      "textoReglas": "La maravilla",
+      "valorMercado": 5
+    }`
+    ImprimirConColor(carta);
   });
 });
 
